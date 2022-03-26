@@ -22,8 +22,9 @@ const me = {
         this.logCause();
     },
     daydream(dream){
-        console.log('мечтает о',dream);
+        console.log(this.name,'мечтает о',dream);
     }
 };
-me.daydream(5);
+
 me.logMeInf();
+me.daydream('пюрешке с котлеткой!');
